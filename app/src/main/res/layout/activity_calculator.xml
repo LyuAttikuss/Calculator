@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              tools:context="com.learning.calculator.CalculatorActivity">
+
+    <TextView
+        android:id="@+id/result"
+        style="@style/Theme.Calculator.Result"
+        android:text="786" />
+
+    <EditText
+        android:id="@+id/expression"
+        style="@style/Theme.Calculator.Expression"
+        android:text="908"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/n_seven"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/number_seven"/>
+        <Button
+            android:id="@+id/n_eight"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/number_eight"/>
+        <Button
+            android:id="@+id/n_nine"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/number_nine"/>
+
+        <Button
+            android:id="@+id/backspace"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/backspace"/>
+
+        <Button
+            android:id="@+id/delete"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/n_four"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/number_four"/>
+        <Button
+            android:id="@+id/n_five"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/number_five"/>
+        <Button
+            android:id="@+id/n_six"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/number_six"/>
+        <Button
+            android:id="@+id/add"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/add"/>
+        <Button
+            android:id="@+id/substruct"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/subtract"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/n_one"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/number_one"/>
+        <Button
+            android:id="@+id/n_two"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/number_two"/>
+        <Button
+            android:id="@+id/n_three"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/number_three"/>
+        <Button
+            android:id="@+id/multiple"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/multiple"/>
+        <Button
+            android:id="@+id/divide"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/divide"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/point"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/point"/>
+        <Button
+            android:id="@+id/n_zero"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/number_zero"/>
+        <Button
+            android:id="@+id/sign"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/sign"/>
+        <Button
+            android:id="@+id/percent"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/percent"/>
+        <Button
+            android:id="@+id/calc"
+            style="@style/Theme.Calculator.Button"
+            android:text="@string/calc"/>
+
+    </LinearLayout>
+
+</LinearLayout>
